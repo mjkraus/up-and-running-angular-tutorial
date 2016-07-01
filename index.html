@@ -7,7 +7,11 @@
 	<script src="js/controllers.js"></script>
 </head>
 <body>
-	<input type="text" ng-model="name">
-	<h2>Welcome {{name}}</h2>
+
+<div ng-controller = "myController">
+	<h1>{{ author.name }}</h1>
+	<p>{{ author.title + ', ' + author.company }}
+</div>
+
 </body>
 </html>
