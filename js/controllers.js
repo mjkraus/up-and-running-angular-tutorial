@@ -5,7 +5,7 @@
 var myApp = angular.module('myApp', []);
 
 //controller use variable scope - super variable to use to pass from JS to application and template
-myApp.controller('myController', ['$scope', '$http' function ($scope, $http){
+myApp.controller('myController', ['$scope', '$http', function ($scope, $http){
 
 	//this is our model. We created our data manually. To use it in our template we put it in the scope variable.
 	//anything in this scope variable will be available in this controller
