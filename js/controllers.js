@@ -2,7 +2,7 @@
 // dependencies go in [], but don't need them for this application
 // myApp has all the code for the application - this is an EX of namespacing. 
 //Namespacing protects the app code, so no other script interfers with our application code
-var artistControllers = angular.module('myApp', []);
+var artistControllers = angular.module('artistControllers', []);
 
 //controller use variable scope - super variable to use to pass from JS to application and template
 //first letter of a controller should be in caps
