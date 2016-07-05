@@ -322,3 +322,17 @@ a.small {
 .artistinfo .btn {
 
 }
+
+.artist.ng-enter.ng-enter-active,
+.artist.ng-leave{
+  opacity: 1;
+  height: 80px;
+  overflow: hidden;
+}
+
+.artist.ng-leave.ng-enter-active,
+.artist.ng-enter{
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
